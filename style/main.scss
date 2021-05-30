@@ -1,0 +1,77 @@
+%center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nOa{
+    width: auto;
+    @extend %center;
+}
+
+.story div{
+    width: 50px;
+    height: 50px;
+    
+    box-sizing: border-box;
+}
+
+.appendd{
+    overflow: auto;
+    height: 500px;
+}
+
+.dropdown-item {
+    width: 500px;
+
+    :first{
+        font-weight: bolder;
+    }
+    p{
+        word-wrap: break-word;
+         white-space: pre-wrap;
+    }
+
+}
+
+.dropdown-menu{
+overflow: auto;
+height: 500px;
+    .dropdown-item{
+        div{
+          
+            display: flex ;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: start;
+        }
+    }
+}
+
+.explor{
+    i{}
+}
+
+.comAria  {
+}
+
+.my-comment{
+            display:flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: start;
+}
+
+
+.mygame,.mylive,.mysitng{
+    p{
+        a{color: lightgoldenrodyellow;}
+    }
+    
+}
+
+

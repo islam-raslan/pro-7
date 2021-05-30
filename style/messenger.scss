@@ -1,0 +1,39 @@
+.dropdown-item {
+    width: 500px;
+
+    :first{
+        font-weight: bolder;
+    }
+    p{
+        word-wrap: break-word;
+         white-space: pre-wrap;
+    }
+
+}
+
+.dropdown-menu{
+overflow: auto;
+height: 500px;
+    .dropdown-item{
+        div{
+          
+            display: flex ;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: start;
+        }
+    }
+}
+
+
+.messeg-aria-child{
+    
+    overflow: auto;
+
+}
+
+
+
+.chat ,.user{
+    overflow: auto;
+}
